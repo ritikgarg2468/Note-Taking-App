@@ -1,4 +1,4 @@
-# Modern Full-Stack Note-Taking App Assingment Project For Highway Delite
+# Modern Full-Stack Note-Taking App Assignment Project For Highway Delite
 
 A secure and modern note-taking application built with a focus on a clean user interface and passwordless authentication. This project features a React/TypeScript frontend and a Node.js/Express backend, with JWT-based authorization for all user-specific actions.
 
