@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import AuthLayout from './AuthLayout';
 
-const API_URL = 'http://localhost:5001/api/auth';
+const API_URL = `${process.env.REACT_APP_API_URL}/auth`;
 
 const SignupPage: React.FC = () => {
   const [name, setName] = useState('');

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5001/api/notes';
+const API_URL = `${process.env.REACT_APP_API_URL}/notes`;
 
 interface Note { _id: string; title: string; content: string; createdAt: string; }
 interface UserInfo { _id: string; email: string; name: string; dob: string; token: string; }
