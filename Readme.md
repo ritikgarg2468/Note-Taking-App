@@ -136,7 +136,7 @@ This project is structured for easy deployment on platforms like Render (for the
 2.  **Deploy the Frontend:**
     -   Connect the same repository to a frontend hosting service like [Vercel](https://vercel.com/).
     -   Set the `REACT_APP_API_URL` environment variable in the Vercel dashboard, using the live URL of your deployed backend (e.g., `https://your-app-name.onrender.com/api`).
-    -   Deploy. Your full-stack application is now live!
+    -   Deploy. Your full-stack application is now live!!
 
 ## 🔐 API Endpoints
 
